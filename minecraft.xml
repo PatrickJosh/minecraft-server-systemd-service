@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>minecraft</short>
+  <description>Port used to allow remote connections to a Minecraft server running on this machine.</description>
+  <port protocol="tcp" port="25565"/>
+</service>

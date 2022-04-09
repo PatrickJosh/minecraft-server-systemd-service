@@ -1,0 +1,29 @@
+[Unit]
+Description=Minecraft Server
+Documentation=
+
+Wants=network.target
+After=network.target
+
+[Service]
+User=minecraft
+Group=minecraft
+Nice=5
+SuccessExitStatus=0 1
+
+ProtectHome=true
+ProtectSystem=full
+PrivateDevices=true
+NoNewPrivileges=true
+PrivateTmp=true
+InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found
+ReadWriteDirectories=/var/minecraft/minecraft-server/%i
+WorkingDirectory=/var/minecraft/minecraft-server/%i
+ExecStartPre=+/usr/bin/firewall-cmd --add-service minecraft
+ExecStart=/var/minecraft/minecraft-server/start.sh
+ExecStop=/usr/bin/mcrcon -H localhost -P 25575 -p <RCON_PASSWORD> stop
+ExecStop=/usr/bin/zsh -c "while ps -p $MAINPID > /dev/null; do /bin/sleep 1; done"
+ExecStopPost=+/usr/bin/firewall-cmd --remove-service minecraft
+
+[Install]
+WantedBy=multi-user.target
