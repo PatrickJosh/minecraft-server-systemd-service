@@ -105,6 +105,12 @@ changed.
 Note that it can be necessary for clients to connect to the server twice to apply the new pack if it was changed.
 If you do not want this behaviour, just remove the corresponding section from `start.sh`.
 
+## Other projects
+If you use the Telegram Messenger, you might be interested in
+[another project of me](https://github.com/PatrickJosh/minecraft-server-telegram-bot).
+With it, you can start and stop you Minecraft servers via a Telegram bot.
+You can also mirror your chat messages from Minecraft into Telegram and vice versa!
+
 ## Licencing
 The files in this repository are licenced under the terms of the Apache License, Version 2.0.
 
