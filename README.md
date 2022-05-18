@@ -20,7 +20,7 @@ installation):
 
 All of these are available via dnf:
 ```shell
-# dnf install zsh mcrcon java-latest-openjdk-headless
+# dnf install zsh mcrcon java-17-openjdk-headless
 ```
 
 ### Setting up the systemd-service
