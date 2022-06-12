@@ -71,7 +71,7 @@ into the new location and go directly to step 4.
 3. Start the new server once to let it generate the EULA file, accept the EULA as usual, and then run it another time
 to let it generate all needed files such as `server.properties`. Run the server (both times) by using:
 ```shell
-$ sudo -u minecraft /usr/lib/jvm/jre-18/bin/java -Xmx4096M -Xms1024M -jar server.jar nogui
+$ sudo -u minecraft /usr/lib/jvm/jre-17/bin/java -Xmx4096M -Xms1024M -jar server.jar nogui
 ```
 4. Open the `server.properties` with your favourite editor and enter the RCON password which you set in the initial 
 setup and enable RCON.
