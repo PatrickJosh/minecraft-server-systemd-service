@@ -47,7 +47,7 @@ Assuming you have already copied it there:
 # semanage fcontext -a -f bin_t '/var/minecraft/minecraft-server/start.sh'
 # restorecon -v /var/minecraft/minecraft-server/start.sh 
 ```
-5. Copy `firewall.xml` to `/etc/firewalld/services` and execute:
+5. Copy `minecraft.xml` to `/etc/firewalld/services` and execute:
 ```shell
 # firewall-cmd --reload
 ```
