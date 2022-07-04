@@ -107,7 +107,7 @@ If you do not want this behaviour, just remove the corresponding section from `s
 
 ## Other projects
 If you use the Telegram Messenger, you might be interested in
-[another project of me](https://github.com/PatrickJosh/minecraft-server-telegram-bot).
+[another project of me](https://codeberg.org/PatrickJosh/minecraft-server-telegram-bot).
 With it, you can start and stop your Minecraft servers via a Telegram bot.
 You can also mirror your chat messages from Minecraft into Telegram and vice versa!
 
