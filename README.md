@@ -1,5 +1,5 @@
 # This repository has been migrated to codeberg.org
-See [here](https://codeberg.org/PatrickJosh/minecraft-server-telegram-bot).
+See [here](https://codeberg.org/PatrickJosh/minecraft-server-systemd-service).
 
 # Minecraft Server Systemd Service Configuration
 
