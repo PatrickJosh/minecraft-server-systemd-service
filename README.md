@@ -1,3 +1,6 @@
+# This repository has been migrated to codeberg.org
+See [here](https://codeberg.org/PatrickJosh/minecraft-server-telegram-bot).
+
 # Minecraft Server Systemd Service Configuration
 
 This repository contains all files needed to set up a systemd-service for running a Minecraft server on a machine 
